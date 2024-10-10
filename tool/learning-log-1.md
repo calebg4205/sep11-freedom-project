@@ -1,8 +1,8 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Next.JS**
 
-## Project: **X**
+## Project: **Translator for Immigrants**
 
 ---
 
