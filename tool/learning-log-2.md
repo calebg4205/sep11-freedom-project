@@ -10,7 +10,7 @@
 * I started the download for express.js
 * It was hard because I didn't know a lot about downloading frameworks
 * You can get express [here](https://expressjs.com/)
-* Me and Jacob had to problem solve becasue we can't download Node in browser IDE
+* Me and Jacob had to problem solve because we can't download Node in browser IDE
 * This led me to get [VScode](https://code.visualstudio.com/download) and [Github Desktop](https://desktop.github.com/download/)
 * Once I set everything up I watched a youtube video on [Vscode](https://www.youtube.com/watch?v=ORrELERGIHs)
 
@@ -33,6 +33,7 @@ app.get('/', (req, res) => {
 * Next week I will finish the YouTube video and begin working on my own project
 * I hope to begin working on the translator soon
 * I also hope to explore Next.js and react to see how they can help
+
 
 ### 10/23
 * Watched [this video](https://www.youtube.com/watch?v=lY6icfhap2o) on middle wear and took notes
@@ -64,6 +65,8 @@ const PORT = 3000;
 * Watch a video to get ahead on JavaScript
 * Begin working on API development
 * Work on Frontend of our website with Jacob
+
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
