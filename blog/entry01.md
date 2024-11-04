@@ -30,7 +30,7 @@ I learned this line of code is the most important. They tells the server where t
 My current stage of the EDP is defining the problem. I want to make it so immigrants have the same chance as anyone else. For that they need to know laws in their own language. I want everyone to have a fair shot. My problem is about equality and I believe mhy website will provide a fast and reliable way to make laws accessible to all. 
 
 ### skills
-* Learning on your own: While studying React I had to learn a lot I didn't know about Javascript. I had to improvise and learn on my own> I big help was ChatGPT to explain concepts to me. I also want to thank my friend <b>Shi-Jun Weng</b> for giving me a roadmap. Learning on your own can be challenging, but no one truly learns on there own. They depend on other to teach them. I learned what it meant to really learn and develop my skills on my own. 
+* Learning on your own: While studying React I had to learn a lot I didn't know about Javascript. I had to improvise and learn on my own. I big help was ChatGPT to explain concepts to me. I also want to thank my friend <b>Shi-Jun Weng</b> for giving me a roadmap. Learning on your own can be challenging, but no one truly learns on there own. They depend on other to teach them. I learned what it meant to really learn and develop my skills on my own. 
 * How to use AI: This became a challenge for me as I discovered the power of ChatGPT in code. It can make things for you in an instant. Still I need to make things on my own to learn on my own. SO with some help from AI as a starting point I worked on my own. I tried to build things on my own even if they didn't work. It was worth it to learn. 
 
 [Next](entry02.md)
