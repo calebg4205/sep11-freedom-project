@@ -72,3 +72,7 @@ const PORT = 3000;
 * Questions you still have
 * What you're going to try next
 -->
+
+
+![image](https://github.com/user-attachments/assets/436c2d57-4e7d-4f28-be6c-a2ad1d43e3dc)
+
