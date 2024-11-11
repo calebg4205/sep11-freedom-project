@@ -73,6 +73,25 @@ const PORT = 3000;
 * What you're going to try next
 -->
 
+### 11/10
+* Today  I learned key's from Shi-Jun and data types. I wanted to use it for a different project but I didn't understand the documentation so I asked Shi-Jun for help
 
 ![image](https://github.com/user-attachments/assets/436c2d57-4e7d-4f28-be6c-a2ad1d43e3dc)
+
+* I now know that keys can be used to hold data types kind of like an array. It can be helpful for making info appear on the website
+
+### 11/11
+
+* I tinkered with express and now am trying to build a simple project. I am going to try and build a simple messaging app
+* Before that I want to finish learning the basics of express.
+* app is an instance of express.
+* METHOD is an HTTP request method, in lowercase.
+* PATH is a path on the server.
+* HANDLER is the function executed when the route is matched.
+
+``` js
+app.use(express.static('public'))
+app.use(express.static('files'))
+```
+* The above code is a for static directories and libraries
 
