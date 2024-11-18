@@ -95,3 +95,38 @@ app.use(express.static('files'))
 ```
 * The above code is a for static directories and libraries
 
+
+### 11/17
+
+* I was thinking to myself about why I would use Express so I read this [article](https://www.besanttechnologies.com/what-is-expressjs#:~:text=It%20is%20used%20for%20designing,and%20API%20without%20any%20effort.)
+* I continued to tinker with express
+
+```js
+extends layout
+
+block content
+  h1= library
+  p Welcome!
+
+  h2 Hello reader!
+
+  p The library has the following record counts:
+
+  ul
+    li #[strong Books:] !{book_count}
+    li #[strong Copies:] !{book_instance_count}
+    li #[strong Copies available:] !{book_instance_available_count}
+    li #[strong Authors:] !{author_count}
+    li #[strong Genres:] !{genre_count}
+
+```
+
+I started working on my own little library counter to tinker
+
+* I also learned how express can be used to make a whole website in JavaScript
+
+#### Next time
+
+* continue working on my little project
+* I need to add the names of the books to the library
+
