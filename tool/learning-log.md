@@ -130,3 +130,8 @@ I started working on my own little library counter to tinker
 * continue working on my little project
 * I need to add the names of the books to the library
 
+
+### 11/18/24
+
+* Watched [this video])(https://www.youtube.com/watch?v=lkjrUW8fI40)
+* 
