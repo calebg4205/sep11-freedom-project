@@ -134,4 +134,5 @@ I started working on my own little library counter to tinker
 ### 11/18/24
 
 * Watched [this video])(https://www.youtube.com/watch?v=lkjrUW8fI40)
+* I found [these notes](https://smoljames.com/notes/javascript#chapter-1---introduction-to-javascript-js) online for Javascript
 * 
