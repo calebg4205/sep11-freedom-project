@@ -133,6 +133,30 @@ I started working on my own little library counter to tinker
 
 ### 11/18/24
 
-* Watched [this video])(https://www.youtube.com/watch?v=lkjrUW8fI40)
+* Watched [this video](https://www.youtube.com/watch?v=lkjrUW8fI40)
 * I found [these notes](https://smoljames.com/notes/javascript#chapter-1---introduction-to-javascript-js) online for Javascript
-* 
+
+### 11/24/24
+
+* I continued to work on my wook sorter but I am struggling with making it show
+* I went back to the doccumentation to try and understand routing again
+* I watched [this video](https://www.youtube.com/watch?v=0Hu27PoloYw) to try to understand routing
+
+```js
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+const PORT = 3000;
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get('/', (req, res) => {
+  res.send(`
+  `);
+});
+
+```
+
+* My code doesn't respond to the HTMl file and I don't know why
