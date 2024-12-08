@@ -160,3 +160,26 @@ app.get('/', (req, res) => {
 ```
 
 * My code doesn't respond to the HTMl file and I don't know why
+
+### 12/08/24
+
+* I figured out that in `red.send("<-- HTML Here -->")` you add the HTMl
+* I also learned that you should return it in regular Javascript when using Next.JS
+```js
+let books = [
+  { id: 1, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: 1925 },
+  { id: 2, title: 'To Kill a Mockingbird', author: 'Harper Lee', year: 1960 },
+  { id: 3, title: '1984', author: 'George Orwell', year: 1949 },
+];
+```
+* These are the ID for the books so I can sort them
+* I need to add more values so that the compuer can organize them how I want
+* I am thinking about learning about how to set serial numbers to the book with `Math.random` and 6 digits.
+* My thought process is this:
+
+1. Use ` Math.floor(Math.random() * 1000000000)` to create a serial number
+2. I would then assign each book a number from which it could be called
+3. This would activate a return feature that brings the book to the user if they know the serial number
+
+
+
