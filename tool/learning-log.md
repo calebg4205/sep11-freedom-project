@@ -50,7 +50,7 @@ const app = express();
 const PORT = 3000;
 
 ```
-* I want to start my own project but I don't have time. I am following this roadmap: 
+* I want to start my own project but I don't have time. I am following this roadmap:
 ![alt text](image.png)
 * My next step is ES6 models with arrow notation
 
@@ -65,7 +65,7 @@ const PORT = 3000;
 * Begin working on API development
 * Work on Frontend of our website with Jacob
 
-<!-- 
+<!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
@@ -181,5 +181,59 @@ let books = [
 2. I would then assign each book a number from which it could be called
 3. This would activate a return feature that brings the book to the user if they know the serial number
 
+
+
+### 03/02/25
+* So far I have done a lot with my freedom project
+* I learned how to navigate `pages/` and automatic route creation
+```js
+import { useState, useEffect } from 'react'
+
+export default function TinkerComponent() {
+  const [count, setCount] = useState(0)
+  const [data, setData] = useState(null)
+
+  useEffect(() => {
+    fetch('/api/hello')
+      .then(res => res.json())
+      .then(json => setData(json.message))
+  }, [])
+
+  return (
+    <div style={{ textAlign: 'center', padding: '20px' }}>
+      <h1>Next.js Tinkering</h1>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <p>API Response: {data ? data : 'Loading...'}</p>
+    </div>
+  )
+}
+
+```
+
+* This code `useState` for API data
+* Then set them to zero so they can be changed later
+* The best part of Next.js is that you can reuse the code
+* Learning next to combine it with Node.Js as reccommened by many people
+*The JSX has reusable code which counts!
+```js
+import Link from 'next/link'
+
+export default function Home() {
+  return (
+    <div style={{ textAlign: 'center', padding: '20px' }}>
+      <h1>Welcome to My Next.js App</h1>
+      <p>This is the home page</p>
+      <Link href="/about">Go to About Page</Link>
+      <br />
+      <Link href="/user/123">Go to User 123</Link>
+    </div>
+  )
+}
+```
+
+* The important part is the `'next/link'`
+  * This works to send it to diffrent pages
+  *The links work to quickly connect
 
 
