@@ -237,3 +237,56 @@ export default function Home() {
   *The links work to quickly connect
 
 
+### 03/30/25
+
+* Started to work on the design of my webiste
+  * Look for insporation on [Reddit](https://www.reddit.com/r/webdev/comments/14vrsqk/where_do_you_find_good_web_design_inspiration/)
+  * I was able to find good animations to use and that are react compatiable on landing.love
+
+* I am working on implementing react hooks into my webpage
+* I learned how to use a [hook](https://www.youtube.com/watch?v=TNhaISOUy6Q)
+  * Basically you can store diffrent data in the hooks. This allows you to easily reuse complonents easily
+
+```js
+
+const useNavbar = () => {
+  const [isOpen, setIsOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  const toggleNavbar = () => {
+    setIsOpen((prev) => !prev)
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true)
+      }
+      else {
+        setIsScrolled(false)
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, []
+  )
+
+  return { isOpen, toggleNavbar, isScrolled }
+}
+
+```
+
+<b> You have to build it at the top of the file</b>
+
+
+* This is attached to a componenet
+
+* You should define components as a function
+
+![alt text](image-1.png)
+
+^ <b>Very important</b>
+
+
+I designed the webiste so it is time to build it out. I am starting with the navbar since it will need to be on every page. Secondly I will build cards with custom data.
